@@ -20,3 +20,11 @@ function sayHiToGrandma(string){
   }
   return "I can hear you";
 }
+
+function sayHiToGrandma(string){
+  if (string === string.toUpperCase()){
+    return "Yes Indeed!";
+  }
+  return "Ohlala";
+}
+
